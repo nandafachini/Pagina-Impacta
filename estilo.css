@@ -82,10 +82,10 @@ body {
 }
 
 .calendario-table {
-    /* display: inline; */
+    display: inline;
 }
 
 .calendario-image {
-    /* float: left;
-    margin-right: 5%; */
+    float: left;
+    margin-right: 5%;
 }
