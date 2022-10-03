@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Impacta</title>
+    <style>
+        div {
+            /* border: 1px solid black; */
+            max-width: 540px;
+            box-sizing: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: auto;
+            padding: 10px;
+            line-height: 12px;
+        }
+
+        div.titulo {
+            font-size: 1.5em;
+        }
+
+        div.campo {
+            font-size: 0.75em;
+            font-weight: 700;
+            color: #4a4a4a;
+            min-height: .30em;
+            max-width: 500px;
+        }
+
+        div.botao {
+            padding-left: 0.2em;
+            padding-right: 2.5em;            
+        }
+
+        div.limpar:hover {
+                background-color: lightcyan;
+                border-radius: 30px;
+            }
+    </style>
+</head>
+</head>
+<body>
+
+    <div>                                                                       <!-- div externa -->
+        
+    <fieldset>        
+
+    <div class="titulo">
+        <h1 id="titulo"><center> Fale Conosco </center></h1>
+        <br>
+    </div>
+    
+    <form> 
+            <div class="campo">                                                   <!-- bloco do nome -->
+                <b><label for="nome">Nome:</label></b><br>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">                                                   <!-- bloco do e-mail -->
+                <b><label for="email">e-mail:</label></b><br>
+                <input type="email" name="email" id="email" required>
+            </div>    
+
+            <div class="campo">                                                   <!-- bloco do telefone -->
+                <b><label for="telefone">Telefone</label></b><br>
+                <input type="tel" name="telefone" id="telefone" required>
+            </div>
+
+            <div class="campo">                                                   <!-- bloco do Assunto -->
+                <b><label for="assunto">Assunto</label></b><br>
+                <select id="assunto" required>
+                    <option selected value="">Selecione uma opção</option>
+                    <option value="1">Atendimento ao cliente</option>
+                    <option value="2">Secretaria de graduação</option>
+                    <option value="3">Financeiro</option>
+                    <option value="4">Ouvidoria</option>
+                </select>
+            </div>
+
+            <div class="campo">                                                  <!-- bloco da mensagem -->
+                <b><label for="mensagem">Mensagem</label></b><br>
+                <textarea row="4" id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+
+            <fieldset>
+                <legend> Como nos conheceu? </legend>  
+                <div class="campo">
+                
+                  <input type = "radio" id = "Google Ads" name = "Google Ads" value = "1">
+                  <label for = "Google Ads"> Google Ads </label>
+            
+                  <input type = "radio" id = "Insta" name = "Insta" value = "2">
+                  <label for = "Insta">Insta</label>
+            
+                  <input type = "radio" id = "Podcast" name = "Podcast" value = "3">
+                  <label for = "Podcast">Podcast</label>
+              
+                  <input type = "radio" id = "TV" name = "TV" value = "TV">
+                  <label for = "TV">TV</label>
+            
+                  <input type = "radio" id = "Amigos" name = "Amigos" value = "4">
+                  <label for = "Amigos">Amigos</label>
+            
+                  <input type = "radio" id = "Outro" name = "Outro" value = "5">
+                  <label for = "Outro"> Outro </label>
+                
+              </fieldset>
+
+            <div class="botao">
+            <button class="limpar" type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+            </div>
+
+        </fieldset>
+    </div>                                                                  <!-- div externa -->
+    
+    </form>
+
+
+
+</body>
+</html>
