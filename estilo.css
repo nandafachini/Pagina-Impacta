@@ -104,3 +104,12 @@ body {
 }
 
 .clear { clear: left; display: block; }
+
+.pin-table {
+    display: inline;
+}
+
+.pin-image {
+    float: left;
+    margin-right: 5%;
+}
