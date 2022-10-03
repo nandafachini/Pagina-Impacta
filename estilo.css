@@ -86,6 +86,21 @@ body {
 }
 
 .calendario-image {
-    float: left;
+    /* float: left; */
     margin-right: 5%;
 }
+
+.silhueta-table {
+    display: inline;
+}
+
+.silhueta-image {
+    /* float: left; */
+    margin-right: 5%;
+}
+
+.inline {
+    float: left;
+}
+
+.clear { clear: left; display: block; }
