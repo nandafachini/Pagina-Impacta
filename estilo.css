@@ -113,3 +113,32 @@ body {
     float: left;
     margin-right: 5%;
 }
+
+.ialic-grey {
+    color:#697173;
+}
+
+.submit-button {
+    font-size: 25px;
+    padding: 10px 40px;
+    border: 1x;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #FF0031;
+    color: white;
+}
+
+.buttonlink {
+    color: white;
+    font-weight: bold;
+}
+
+.other-button {
+    font-size: 15px;
+    padding: 10px 30px;
+    border: 1x;
+    border-radius: 9px;
+    font-weight: bold;
+    background-color: #F54000;
+    color: white;
+}
